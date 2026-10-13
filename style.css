@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #8c9bce;
+  color: white;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 51);
+}
+
+#search {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px;
+  margin: 20px 0;
+  border: 1px solid #444;
+  border-radius: 10px;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+#search:focus {
+  border-color: #8b7cff;
+}
+
+.result {
+  padding: 14px;
+  margin-bottom: 8px;
+  background: #222;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.result:hover {
+  background: #343044;
+}
+
+.details {
+  margin-top: 20px;
+  padding: 18px;
+  background: #1b1b1b;
+  border-radius: 10px;
+  line-height: 1.8;
+}
